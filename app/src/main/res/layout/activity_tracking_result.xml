@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundPrimary"
+    tools:context="com.weekendinc.jet.TrackingResultActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcy_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="@dimen/small" />
+    <ProgressBar
+        android:id="@+id/progress_bar_tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_bg_rounded_square_red_fill"
+        android:textColor="@color/colorTextPrimary"
+        android:text="@string/pod_retry"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_timed_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/btn_retry"
+        android:gravity="center"
+        android:textColor="@color/colorTextPrimary"
+        android:text="@string/request_timed_out"
+        android:visibility="gone"/>
+
+</RelativeLayout>

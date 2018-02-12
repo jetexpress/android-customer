@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/title_section_home" />
+        <item
+            android:id="@+id/action_pickup_on_demand"
+            android:icon="@drawable/ic_box_grey"
+            android:title="@string/pickup_on_demand" />
+        <item
+            android:id="@+id/action_shipment"
+            android:checked="true"
+            android:icon="@drawable/ic_kiriman_grey"
+            android:title="@string/title_section_shipment" />
+        <item
+            android:id="@+id/action_track"
+            android:icon="@drawable/ic_lacak_grey"
+            android:title="@string/title_section_track" />
+        <item
+            android:id="@+id/action_check_price"
+            android:icon="@drawable/ic_cekharga_grey"
+            android:title="@string/title_section_check_price" />
+        <!--<item-->
+            <!--android:id="@+id/action_credit"-->
+            <!--android:icon="@drawable/ic_kredit_grey"-->
+            <!--android:title="@string/title_section_credit" />-->
+        <item
+            android:id="@+id/action_address"
+            android:icon="@drawable/ic_daftaralamat_grey"
+            android:title="@string/title_section_address"/>
+        <item
+            android:id="@+id/action_pickup_help"
+            android:icon="@drawable/ic_bantuan_grey"
+            android:title="@string/title_section_pickup_help"/>
+        <item
+            android:id="@+id/action_help"
+            android:icon="@drawable/ic_bantuan_grey"
+            android:title="@string/title_section_help"/>
+        <item
+            android:id="@+id/action_about"
+            android:icon="@drawable/ic_about_jet"
+            android:title="@string/title_section_about"/>
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_setting_grey"
+            android:title="@string/title_section_setting"/>
+    </group>
+
+</menu>

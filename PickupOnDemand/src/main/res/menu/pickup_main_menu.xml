@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        android:title="@string/pod_notification"
+        app:actionLayout="@layout/custom_layout_notification_menu"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_clear_all"
+        android:orderInCategory="101"
+        android:title="@string/pod_clear_all"
+        android:icon="@drawable/ic_trash_white"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+</menu>

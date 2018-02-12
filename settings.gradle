@@ -1,0 +1,8 @@
+include ':app', ':ListViewVariants', ':PickupOnDemand'
+//, ':ListViewVariants' , ':MPAndroidChart', ':AndroidWeekView', ':AndroidLockPattern', ':SweetAlertDialog'
+// project(':ListViewVariants').projectDir = new File('libs/ListViewVariants/library')
+// project(':MPAndroidChart').projectDir = new File('libs/MPAndroidChart/MPChartLib')
+// project(':AndroidWeekView').projectDir = new File('libs/AndroidWeekView/library')
+// project(':AndroidLockPattern').projectDir = new File('libs/AndroidLockPattern/app')
+// project(':SweetAlertDialog').projectDir = new File('libs/SweetAlertDialog/library')
+//project(':OpenCamera').projectDir = new File('libs/OpenCamera/app')

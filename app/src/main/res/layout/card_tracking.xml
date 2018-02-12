@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_tracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small"
+        android:layout_marginBottom="@dimen/extra_small"
+        android:layout_marginStart="@dimen/medium"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginEnd="@dimen/medium"
+        android:layout_marginRight="@dimen/medium"
+        android:padding="@dimen/small"
+        android:paddingTop="@dimen/small"
+        android:paddingBottom="@dimen/small"
+        android:paddingLeft="@dimen/small"
+        android:paddingStart="@dimen/small"
+        android:paddingRight="@dimen/larger"
+        android:paddingEnd="@dimen/larger"
+        android:background="@drawable/custom_bg_rounded_square_white_fill"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_hash_grey"
+        android:drawableLeft="@drawable/ic_hash_grey"
+        android:drawablePadding="@dimen/medium"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@+id/img_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/medium_large"
+        android:layout_marginEnd="@dimen/medium_large"
+        android:src="@drawable/ic_clear_grey" />
+</RelativeLayout>

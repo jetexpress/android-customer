@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_add_waybill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/extra_small"
+        android:layout_marginBottom="@dimen/extra_small"
+        android:layout_marginStart="@dimen/medium"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginEnd="@dimen/medium"
+        android:layout_marginRight="@dimen/medium"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="@dimen/spacing_normal"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:text="@string/tracking_add_waybill"/>
+    <Button
+        android:id="@+id/btn_track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/extra_small"
+        android:layout_marginBottom="@dimen/small"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:padding="@dimen/spacing_normal"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:text="@string/tracking_now"/>
+</LinearLayout>

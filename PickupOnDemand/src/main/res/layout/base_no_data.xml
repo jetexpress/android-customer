@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/base_text_view_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/large"
+        android:paddingRight="@dimen/medium"
+        android:paddingBottom="@dimen/large"
+        android:paddingLeft="@dimen/medium"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/colorTextPrimary"
+        android:text="@string/pod_no_data_available"
+        android:visibility="gone"
+        />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/medium"-->
+        <!--android:textColor="@color/colorTextPrimary"-->
+        <!--android:text="TITLE 02"/>-->
+    <coid.customer.pickupondemand.jet.base.ProportionalImageView
+        android:id="@+id/img_tutorial_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/tutor2"/>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/medium"-->
+        <!--android:layout_below="@id/img_tutorial_02"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textColor="@color/colorTextPrimary"-->
+        <!--android:text="Content 02"/>-->
+</RelativeLayout>

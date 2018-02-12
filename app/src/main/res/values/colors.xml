@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme Colors-->
+    <color name="primary">#E11A23</color>
+
+    <color name="primary_dark">#C40021</color>
+    <color name="primary_light">#B2EBF2</color>
+    <color name="accent">#E3001D</color>
+    <!--<color name="primary_text">#212121</color>-->
+    <!--<color name="secondary_text">#727272</color>-->
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="window_background">#FFFFFF</color>
+    <!--map-->
+    <color name="primary_trans">#3329879C</color>
+    <color name="action_bar">#E11A23</color> <!-- color for action bar -->
+
+    <!-- Grayscale -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#DFDFDF</color>
+    <color name="gray">#939393</color>
+    <color name="gray_dark">#666666</color>
+    <color name="black">#202020</color>
+
+    <!-- Basic colors -->
+    <color name="green">#0a7e07</color>
+    <color name="blue">#2A91BD</color>
+    <color name="blue_grey">#455a64</color>
+    <color name="orange">#f57c00</color>
+    <color name="yellow">#FFD54F</color>
+    <color name="brown">#6D4C41</color>
+    <color name="red">#E11A23</color>
+    <color name="red_dark">#d01716</color>
+    <color name="gray_dark_more">#A9BBC2</color>
+    <color name="background_color">#EDEDED</color>
+    <color name="tracking_result_card">#fbfcfd</color>
+    <color name="tab_title">#FFFEF2</color>
+
+    <color name="indigo">#303f9f</color>
+
+    <color name="red_pressed">#BB432F</color>
+
+    <color name="pinned_header_text">#FF3c3c3c</color>
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+
+    <!-- Start : EditText, Hint, Helper, and Error -->
+    <color name="colorOfEditText">#202020</color>
+    <color name="colorOfHintAndHelper">#747474</color>
+    <color name="colorOfError">#E11A23</color>
+    <!-- End : EditText, Helper, and Error -->
+
+    <integer-array name="intarr_swipe_refresh_layout">
+        <item>@color/primary</item>
+        <item>@color/red_dark</item>
+        <item>@android:color/black</item>
+    </integer-array>
+
+    <integer-array name="intarr_image_loading">
+        <item>@color/primary</item>
+        <item>@color/red_dark</item>
+        <item>@android:color/white</item>
+    </integer-array>
+
+    <!-- IOS Color -->
+    <color name="colorIOSIconGrey">#7f7f7f</color>
+    <color name="colorIOSPinGrey">#c9c9c9</color>
+    <color name="colorIOSBackgroundLighterGrey">#ececec</color>
+    <color name="colorIOSBackgroundLight">#d2d2d2</color>
+    <color name="colorIOSTextLightBlue">#2e89ee</color>
+
+</resources>

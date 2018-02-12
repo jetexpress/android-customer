@@ -1,0 +1,221 @@
+<resources>
+    <string name="pod_app_name">JET - Pickup On Demand for User</string>
+    <string name="pod_content_authority" translatable="false">coid.customer.pickupondemand.jet</string>
+
+    <string name="pod_navigation_drawer_open">Open navigation drawer</string>
+    <string name="pod_navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- COMMON -->
+    <string name="pod_loading">Memuat&#8230;</string>
+    <string name="pod_no_data_available">Tidak ada data</string>
+    <string name="pod_retry">Ulang</string>
+    <string name="pod_required">Wajib diisi</string>
+    <string name="pod_invalid_nominal">Nominal tidak valid</string>
+    <string name="pod_currency">Rp.</string>
+    <string name="pod_estimated_price">Estimasi Harga</string>
+    <string name="pod_estimated_total_price">Estimasi Total Harga</string>
+    <string name="pod_ok">OK</string>
+    <string name="pod_yes">Ya</string>
+    <string name="pod_cancel">Tidak</string>
+    <string name="pod_save">Save</string>
+    <string name="pod_continue">Lanjut</string>
+    <string name="pod_choose_image">Pilih Gambar</string>
+    <string name="pod_copy">Copy</string>
+    <string name="pod_search">Cari</string>
+
+    <!-- PERMISSION -->
+    <string name="pod_permission_location_title">Akses Lokasi</string>
+    <string name="pod_permission_location_message_info">Aplikasi ini memerlukan akses lokasi, aktifkan akses lokasi sekarang ?</string>
+    <string name="pod_permission_camera_title">Akses Kamera</string>
+    <string name="pod_permission_camera_message_info">Aplikasi ini memerlukan akses kamera, aktifkan akses kamera sekarang ?</string>
+
+    <!-- UPDATE -->
+    <string name="pod_update">Update</string>
+    <string name="update_information">Informasi</string>
+    <string name="update_now">Update Sekarang</string>
+
+    <!-- GPS -->
+    <string name="pod_gps_activate_title">GPS tidak aktif</string>
+    <string name="pod_gps_activate_confirmation_message">GPS tidak aktif, silakan mengaktifkan GPS terlebih dulu.</string>
+
+    <!-- NOTIFICATION -->
+    <string name="pod_notification">Notifikasi</string>
+    <string name="pod_clear_all">Hapus Semua</string>
+    <string name="pod_clear_all_title">Hapus</string>
+    <string name="pod_clear_all_confirmation">Hapus semua Notifikasi ?</string>
+    <string name="pod_delete_notification">Hapus Notifikasi</string>
+    <string name="pod_delete_notification_title">Hapus</string>
+    <string name="pod_delete_notification_confirmation">Hapus Notifikasi ini ?</string>
+
+    <!-- PICKUP -->
+    <string name="pod_pickup">Pickup</string>
+    <string name="pod_pickup_create">Buat Kiriman Baru</string>
+    <string name="pod_pickup_current">Current</string>
+    <string name="pod_pickup_history">History</string>
+    <string name="pod_pickup_number">Pickup no</string>
+    <string name="pod_pickup_edit">Edit Pesanan</string>
+    <string name="pod_pickup_detail">Detail Pesanan</string>
+    <string name="pod_pickup_courier_detail">Detail Kurir</string>
+    <string name="pod_observe_pickup_via_map">Pantau Lewat Peta</string>
+    <string name="pod_view_pickup">Lihat Pesanan</string>
+    <string name="pod_delete_pickup">Hapus Pesanan</string>
+    <string name="pod_cancel_pickup">Batalkan Pesanan</string>
+    <string name="pod_delete_pickup_confirmation">Hapus Pesanan ?</string>
+    <string name="pod_cancel_pickup_confirmation">Batalkan Pesanan ?</string>
+    <string name="pod_pickup_status_looking_for_courier">Sedang mencari Kurir</string>
+    <string name="pod_pickup_status_waiting_for_courier">Menunggu Kurir</string>
+    <string name="pod_pickup_last_attempt_message">Mohon menunggu, saat ini pickup anda sedang kami proses</string>
+    <string name="pod_pickup_status_drafted">Draf</string>
+    <string name="pod_pickup_status_requested">Mencari Kurir</string>
+    <string name="pod_pickup_status_assigned">Menunggu Kurir</string>
+    <string name="pod_pickup_status_trip_started">Kurir sedang dalam perjalanan</string>
+    <string name="pod_pickup_status_arrived">Sudah Tiba</string>
+    <string name="pod_pickup_status_cancelled">Dibatalkan</string>
+    <string name="pod_pickup_status_completed">Selesai</string>
+    <string name="pod_pickup_status_invalid">Tidak Valid</string>
+    <string name="pod_pickup_wait_for_waybills">Menunggu Waybill</string>
+    <string name="pod_pickup_in_process">Pickup sedang diproses</string>
+    <string name="pod_pickup_quick_pickup_item_count">Jumlah Barang</string>
+    <string name="pod_pickup_actual_pickup_item_count">Jumlah Barang Aktual</string>
+    <string name="pod_pickup_created_waybill">Waybill Terbuat</string>
+    <string name="pod_pickup_dialog_draft_content">Saat ini sistem tidak dapat melayani permintaan anda, silahkan coba lagi.</string>
+    <string name="pod_pickup_dialog_draft_title">System</string>
+
+    <!-- PICKUP ITEM -->
+    <string name="pod_pickup_item_booking_code">Kode Booking</string>
+    <string name="pod_pickup_item_edit">Edit Pesanan</string>
+    <string name="pod_pickup_item_view">Lihat Pesanan</string>
+    <string name="pod_pickup_item_delete">Hapus Pesanan</string>
+    <string name="pod_pickup_item_delete_confirmation">Hapus Pesanan ?</string>
+    <string name="pod_pickup_item_quick">Quick Pickup</string>
+    <string name="pod_pickup_item_add_using_qr_code">Scan QR Code</string>
+    <string name="pod_pickup_item_add">Tambah Barang</string>
+    <string name="pod_pickup_item_qr_code_info">Posisikan QR Code di dalam kotak yang tersedia</string>
+    <string name="pod_pickup_item_duplicate_qr_code_message">QR Code sudah digunakan.</string>
+    <string name="pod_pickup_item_cargo_minimum_weight_message">Berat Kargo minimum 10 kg</string>
+    <string name="pod_pickup_item_quick_qty">Jumlah barang :</string>
+    <string name="pod_pickup_item_how_to_use_estimated_price_title">Butuh Estimasi Harga ?</string>
+    <string name="pod_pickup_item_how_to_use_estimated_price_message">Silakan Pilih Lokasi Alamat Penerima terlebih dulu.</string>
+    <string name="pod_pickup_item_consignee_detail">Detail Penerima</string>
+    <string name="pod_pickup_item_consignee_jet_id">JET ID penerima (bila tersedia)</string>
+    <string name="pod_pickup_item_item_detail">Detail Barang</string>
+    <string name="pod_pickup_item_drop_shipper_detail">Detail pengirim tercetak</string>
+    <string name="pod_pickup_item_consignee_name">Nama Penerima</string>
+    <string name="pod_pickup_item_consignee_name_mandatory">Nama Penerima<font color="red">*</font><font fgcolor="red">*</font></string>
+    <string name="pod_pickup_item_consignee_phone_number">Telepon Penerima</string>
+    <string name="pod_pickup_item_consignee_address">Pilih Lokasi Alamat Penerima</string>
+    <string name="pod_pickup_item_consignee_address_detail">Detail Alamat Penerima</string>
+    <string name="pod_pickup_item_weight">Berat Barang (kg)</string>
+    <string name="pod_pickup_item_dimension">Dimensi Barang (cm)</string>
+    <string name="pod_pickup_item_length">Panjang</string>
+    <string name="pod_pickup_item_width">Lebar</string>
+    <string name="pod_pickup_item_height">Tinggi</string>
+    <string name="pod_pickup_item_volume">Volume Barang</string>
+    <string name="pod_pickup_item_product">Jenis Pengiriman</string>
+    <string name="pod_pickup_item_packaging">Packaging</string>
+    <string name="pod_pickup_item_default_packaging">Tidak ada Packaging</string>
+    <string name="pod_pickup_item_insurance">Asuransi?</string>
+    <string name="pod_pickup_item_value">Nilai Barang</string>
+    <string name="pod_pickup_item_description">Deskripsi Barang</string>
+    <string name="pod_pickup_item_same_with_jet_id">Sama dengan data JET ID saya</string>
+    <string name="pod_pickup_item_drop_shipper_name">Nama Pengirim</string>
+    <string name="pod_pickup_item_drop_shipper_phone_number">Telepon Pengirim</string>
+    <string name="pod_pickup_item_drop_shipper_address">Alamat Pengirim</string>
+    <string name="pod_pickup_item_show_optional_content">Tap untuk Detail Tambahan</string>
+    <string name="pod_pickup_item_history_detail">Detail History Pickup Item</string>
+    <string name="pod_pickup_item_more_accurate_estimated_price_info">Untuk estimasi harga yang lebih akurat silahkan isi detail barang di bawah ini</string>
+
+
+    <!-- COURIER -->
+    <string name="pod_courier_detail">Kurir Detail</string>
+    <string name="pod_courier_id">Kurir ID</string>
+    <string name="pod_courier_rating">Nilai Kurir</string>
+    <string name="pod_courier_cancel">Batal</string>
+    <string name="pod_courier_sms">SMS</string>
+    <string name="pod_courier_call">Telepon</string>
+    <string name="pod_courier_on_the_way">Kurir Dalam Perjalanan</string>
+    <string name="pod_courier_pickup_location">Lokasi Penjemputan</string>
+    <string name="pod_courier_position">Posisi Kurir</string>
+    <string name="pod_courier_give_rating">Silakan memberi nilai untuk kurir</string>
+
+    <!-- PAYMENT METHOD -->
+    <string name="pod_choose_payment_method">Pilih Metode pembayaran</string>
+
+    <!-- PICKUP IMAGE -->
+    <string name="pod_pickup_image_title">Cantumkan Foto Barang Anda</string>
+    <string name="pod_pickup_image_take_photo">Ambil Gambar</string>
+    <string name="pod_pickup_image_pick_photo">Pilih Gambar</string>
+    <string name="pod_pickup_image_required">Tambahkan foto barang terlebih dahulu</string>
+
+    <!-- PICKUP DETAIL CONFIRMATION -->
+    <string name="pod_pickup_detail_confirmation_title">Detail Pickup</string>
+    <string name="pod_pickup_detail_confirmation_quick_pickup_item_count">Jumlah Barang</string>
+    <string name="pod_pickup_detail_confirmation_pic">PIC Pickup</string>
+    <string name="pod_pickup_detail_confirmation_phone">Telepon Pengirim</string>
+    <string name="pod_pickup_detail_confirmation_address">Alamat Pickup</string>
+    <string name="pod_pickup_detail_confirmation_notes">Notes</string>
+
+    <!-- PICKUP LOCATION CONFIRMATION-->
+    <string name="pod_pickup_location_confirmation">Konfirmasi Penjemputan</string>
+
+    <!-- PICKUP LOCATION -->
+    <string name="pod_choose_pickup_location">Tentukan Lokasi Penjemputan</string>
+    <string name="pod_add_pickup_image">Tambahkan Gambar Kiriman</string>
+    <string name="pod_consignee_location">Lokasi Penerima</string>
+    <string name="pod_pickup_location">Lokasi Penjemputan</string>
+    <string name="pod_pickup_location_jet_bike">Bike</string>
+    <string name="pod_pickup_location_jet_car">Car</string>
+    <string name="pod_pickup_location_minute">Min</string>
+    <string name="pod_pickup_location_not_found">Lokasi tidak ditemukan</string>
+    <string name="pod_choose_location">Pilih Lokasi</string>
+    <string name="pod_courier_order">Pesan Kurir</string>
+    <string name="pod_courier_search_loading_message">Sedang mencari kurir&#8230;</string>
+    <string name="pod_courier_backup_to_pickup_list">Kembali ke List Pickup</string>
+
+    <!-- ITEM SELECT DIALOG -->
+    <string name="pod_choose_weight">Pilih Berat Barang</string>
+    <string name="pod_choose_delivery_type">Pilih Jenis Pengiriman</string>
+
+    <!-- GOOGLE MAP -->
+    <!--<string name="common_google_play_services_update_title" msgid="6006316683626838685">Title</string>-->
+    <!--<string name="common_google_play_services_update_text" msgid="448354684997260580">Message.</string>-->
+
+    <!-- ERROR -->
+    <string name="pod_request_timed_out">Koneksi terputus</string>
+    <string name="pod_estimated_price_request_timed_out">Koneksi terputus, gagal mendapatkan Estimasi Harga, Silakan coba lagi</string>
+    <string name="pod_user_profile_get_failed">Gagal mendapatkan Profil User, Silakan coba lagi</string>
+    <string name="pod_get_direction_failed">Gagal mendapatkan arah, Silakan coba lagi</string>
+    <string name="pod_get_reverse_geocode_failed">Gagal mendapatkan alamat, Silakan coba lagi</string>
+    <string name="pod_login_failed">Gagal login, Silakan coba lagi</string>
+    <string name="pod_login_invalid">Username atau Password tidak valid</string>
+    <string name="pod_register_failed">Gagal register, Silakan coba lagi</string>
+    <string name="pod_change_profile_failed">Gagal mengubah profile, Silakan coba lagi</string>
+    <string name="pod_create_requested_pickup_failed">Gagal membuat Pickup, Silakan coba lagi</string>
+    <string name="pod_delete_pickup_failed">Gagal menghapus Pickup, Silakan coba lagi</string>
+    <string name="pod_cancel_pickup_failed">Gagal mambatalkan Pickup, Silakan coba lagi</string>
+    <string name="pod_update_pickup_location_failed">Gagal mengubah lokasi Pickup, Silakan coba lagi</string>
+    <string name="pod_create_pickup_item_failed">Gagal membuat Pickup Item, Silakan coba lagi</string>
+    <string name="pod_update_pickup_item_failed">Gagal mengubah Pickup Item, Silakan coba lagi</string>
+    <string name="pod_delete_pickup_item_failed">Gagal menghapus Pickup Item, Silakan coba lagi</string>
+    <string name="pod_update_pickup_image_failed">Gagal mengubah Foto Pickup, Silakan coba lagi</string>
+    <string name="pod_broadcast_pickup_failed">Gagal mencari kurir, Silakan coba lagi</string>
+    <string name="pod_incomplete_pickup_item_message">Mohon melengkapi data Pickup Item</string>
+    <string name="pod_pickup_item_not_available">Belum ada Pickup Item</string>
+    <string name="pod_payment_method_not_available">Metode pembayaran belum dipilih</string>
+    <string name="pod_failed_to_connect_phone_call">Gagal terhubung, Silakan coba lagi</string>
+    <string name="pod_failed_to_sms">SMS gagal, Silakan coba lagi</string>
+    <string name="pod_empty_phone_number">Nomor tidak tersedia</string>
+    <string name="pod_pickup_not_found">Pickup tidak ditemukan</string>
+    <string name="pod_rate_courier_failed">Gagal memberi nilai kurir, Silakan coba lagi</string>
+    <string name="pod_get_courier_failed">Gagal mendapatkan data kurir, Silakan coba lagi</string>
+    <string name="pod_setting_change_password_failed">Gagal mengubah password, Silakan coba lagi</string>
+    <string name="pod_setting_incorrect_password">Password sekarang tidak sesuai</string>
+    <string name="pod_setting_confirm_new_password_not_match">Konfirmasi password tidak sesuai</string>
+    <string name="pod_setting_password_length_at_least_6_characters">Password minimal 6 karakter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pod_hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

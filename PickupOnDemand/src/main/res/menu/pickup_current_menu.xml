@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:id="@+id/group_top">
+        <item
+            android:id="@+id/menu_pickup_edit"
+            android:icon="@drawable/ic_edit_blue"
+            android:title="@string/pod_pickup_edit" />
+        <item
+            android:id="@+id/menu_pickup_detail"
+            android:icon="@drawable/ic_detail_blue"
+            android:title="@string/pod_pickup_detail" />
+        <item
+            android:id="@+id/menu_pickup_courier_detail"
+            android:icon="@drawable/ic_user_male_blue"
+            android:title="@string/pod_pickup_courier_detail" />
+        <item
+            android:id="@+id/menu_observe_pickup_via_map"
+            android:icon="@drawable/ic_map_marker_blue"
+            android:title="@string/pod_observe_pickup_via_map" />
+    </group>
+
+    <group
+        android:id="@+id/group_bottom">
+        <item
+            android:id="@+id/menu_delete_pickup"
+            android:icon="@drawable/ic_trash_red"
+            android:title="@string/pod_delete_pickup" />
+        <item
+            android:id="@+id/menu_cancel_pickup"
+            android:icon="@drawable/ic_trash_red"
+            android:title="@string/pod_cancel_pickup" />
+    </group>
+
+</menu>

@@ -1,0 +1,5 @@
+/build
+gradle.properties
+*.iml
+*.apk
+manifest-merger-release-report.txt

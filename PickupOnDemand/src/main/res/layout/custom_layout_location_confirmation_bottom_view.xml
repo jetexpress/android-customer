@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_location_confirmation_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundSecondary">
+
+    <RelativeLayout
+        android:id="@+id/rl_courier_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium"
+        android:layout_marginTop="@dimen/small"
+        android:layout_marginRight="@dimen/medium"
+        android:layout_marginBottom="@dimen/small"
+        android:layout_marginLeft="@dimen/medium"
+        android:background="@drawable/custom_bg_rounded_square_red_fill">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_map_marker_white"
+            android:drawableStart="@drawable/ic_map_marker_white"
+            android:drawablePadding="@dimen/medium"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/pod_courier_order"/>
+    </RelativeLayout>
+</LinearLayout>
