@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JETexpress</string>
+    <string name="facebook_app_id" translatable="false">393785550983913</string>
+    <string name="google_sign_in_client_id" translatable="false">395994105757-ltcf2khabh15gsur3ajmf6ra7agt8bvm.apps.googleusercontent.com</string>
+
+    <!-- Pickup On Demand -->
+    <string name="pickup_on_demand">Jemput</string>
+
+    <!-- Common-->
+    <string name="request_timed_out">Koneksi terputus</string>
+
+    <!-- Title -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Section -->
+    <string name="title_section_home">Home</string>
+    <string name="title_section_shipment">Kiriman</string>
+    <string name="title_section_check_price">Cek Harga</string>
+    <string name="title_section_track">Lacak</string>
+    <string name="title_section_address">Daftar Outlet</string>
+    <string name="title_section_help">Bantuan</string>
+    <string name="title_section_pickup_help">Bantuan Jemput</string>
+    <string name="title_section_setting">Pengaturan</string>
+    <string name="title_section_about">Tentang JET</string>
+    <string name="title_tracking_detail">Pelacakan Kiriman</string>
+
+    <string name="tracking">LACAK</string>
+    <string name="delivered">TERKIRIM</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="coming_soon_description">Layanan ini untuk sementara belum tersedia</string>
+    <string name="weight">BERAT</string>
+    <string name="volume">VOLUME</string>
+    <string name="pickup_address">ASAL</string>
+    <string name="destination">TUJUAN</string>
+    <string name="number_of_item">JUMLAH PAKET</string>
+    <string name="login">Log In</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- NEW LOGIN -->
+    <string name="login_email">Email / JET ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_your_login_details"><u>Lupa Password ?</u></string>
+    <string name="login_do_not_have_an_account">Belum buat akun?</string>
+    <string name="login_register_now"><u><b>Daftar Sekarang</b></u></string>
+    <string name="login_facebook_failed">Login gagal, silakan coba lagi</string>
+    <string name="login_facebook">Facebook</string>
+    <string name="login_google">Google+</string>
+
+    <!-- NEW REGISTER -->
+    <string name="register">Daftar</string>
+    <string name="register_name">Nama</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_repeat_password">Ulangi Password</string>
+    <string name="register_already_have_an_account">Sudah punya akun?</string>
+    <string name="register_login_now"><u><b>Login Sekarang</b></u></string>
+    <string name="register_password_repeat_mismatch">Password tidak sama</string>
+    <string name="register_invalid_email_format">Format email tidak valid</string>
+    <string name="register_password_minimum_six_characters">Password minimal 6 karakter</string>
+    <string name="register_email_already_taken">Email sudah terdaftar</string>
+    <string name="register_name_already_taken">Nama sudah terdaftar</string>
+
+    <!-- TRACKING -->
+    <string name="tracking_now">Lacak Sekarang</string>
+    <string name="tracking_add_waybill">Tambah Nomor Resi</string>
+    <string name="tracking_waybill_not_found_header">Tidak Ditemukan</string>
+    <string name="tracking_waybill_not_found_info">Nomor waybill yang Anda cari tidak ditemukan. Silahkan mencari nomor waybill yang lain.</string>
+
+    <!-- DASHBOARD -->
+    <string name="dashboard_pickup">Panggil Kurir</string>
+    <string name="dashboard_pickup_description">Panggil kurir untuk menjemput barang kiriman Anda</string>
+    <string name="dashboard_price_check">Cek Harga</string>
+    <string name="dashboard_tracking">Lacak Pengiriman</string>
+    <string name="dashboard_history">Riwayat Pengiriman</string>
+    <string name="dashboard_outlet_list">Daftar Outlet</string>
+    <string name="dashboard_credit">Kredit</string>
+    <string name="dashboard_help">Bantuan</string>
+    <string name="dashboard_setting">Pengaturan</string>
+    <string name="dashboard_about">Tentang JET</string>
+
+    <!-- PRICE CHECK -->
+    <string name="price_check_origin">Asal</string>
+    <string name="price_check_destination">Tujuan</string>
+    <string name="price_check_weight">Berat</string>
+    <string name="price_check_kg">Kg</string>
+    <string name="price_check_result_not_found">Harga tidak ditemukan, silakan coba lagi untuk asal dan tujuan yang lain</string>
+    <string name="price_check_choose_location">Pilih lokasi</string>
+
+    <!-- WAYBILL -->
+    <string name="waybill_failed_to_update_pin">Gagal mengganti status pin, silakan coba lagi</string>
+    <string name="waybill_detail">Detail Kiriman</string>
+
+    <!-- SETTING -->
+    <string name="setting">Pengaturan</string>
+    <string name="setting_outlet">Gerai JETexpress</string>
+    <string name="setting_help">Bantuan</string>
+    <string name="setting_about">Tentang JETexpress</string>
+    <string name="setting_sign_out">Sign Out</string>
+    <string name="setting_profile_data">Data Pribadi</string>
+    <string name="setting_full_name">Nama Lengkap</string>
+    <string name="setting_phone_number">Nomor Telepon</string>
+    <string name="setting_address">Alamat</string>
+    <string name="setting_submit_change_profile">Ubah Data Pribadi</string>
+    <string name="setting_change_password">Ubah Password</string>
+    <string name="setting_change_password_current_password">Password sekarang</string>
+    <string name="setting_change_password_new_password">Password baru</string>
+    <string name="setting_change_password_confirm_new_password">Konfirmasi Password baru</string>
+    <string name="setting_change_profile_success">Berhasil mengubah Data Pribadi</string>
+    <string name="setting_change_password_success">Berhasil mengubah Password</string>
+    <string name="setting_submit">Submit</string>
+    <string name="setting_confirm_new_password_not_match">Konfirmasi password tidak sesuai</string>
+    <string name="setting_incorrect_password">Password sekarang tidak sesuai</string>
+</resources>

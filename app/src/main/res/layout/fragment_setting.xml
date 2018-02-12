@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundPrimary"
+    tools:context="com.weekendinc.jet.fragments.SettingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/medium">
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="@dimen/text_size_medium_large"
+                    android:textStyle="bold"/>
+                <ProgressBar
+                    android:id="@+id/progress_bar_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    style="?android:attr/progressBarStyleSmall"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_profile_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/medium"
+                android:layout_marginStart="@dimen/medium"
+                android:layout_marginRight="@dimen/medium"
+                android:layout_marginEnd="@dimen/medium"
+                android:layout_marginBottom="@dimen/medium"
+                android:padding="@dimen/medium"
+                android:background="@drawable/custom_bg_rounded_square_white_fill"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_medium_large"
+                android:text="@string/setting"/>
+
+            <TextView
+                android:id="@+id/tv_outlet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/medium"
+                android:layout_marginStart="@dimen/medium"
+                android:layout_marginRight="@dimen/medium"
+                android:layout_marginEnd="@dimen/medium"
+                android:layout_marginBottom="@dimen/medium"
+                android:padding="@dimen/medium"
+                android:background="@drawable/custom_bg_rounded_square_white_fill"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_medium_large"
+                android:text="@string/setting_outlet"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/medium"
+                android:layout_marginStart="@dimen/medium"
+                android:layout_marginRight="@dimen/medium"
+                android:layout_marginEnd="@dimen/medium"
+                android:layout_marginBottom="@dimen/medium"
+                android:orientation="vertical"
+                android:background="@drawable/custom_bg_rounded_square_white_fill">
+                <TextView
+                    android:id="@+id/tv_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/medium"
+                    android:background="@drawable/custom_bg_rounded_square_white_fill"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_medium_large"
+                    android:text="@string/setting_help"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider"/>
+                <TextView
+                    android:id="@+id/tv_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/medium"
+                    android:background="@drawable/custom_bg_rounded_square_white_fill"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_medium_large"
+                    android:text="@string/setting_about"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_sign_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/medium"
+                android:layout_marginStart="@dimen/medium"
+                android:layout_marginRight="@dimen/medium"
+                android:layout_marginEnd="@dimen/medium"
+                android:layout_marginBottom="@dimen/medium"
+                android:gravity="center"
+                android:padding="@dimen/medium"
+                android:background="@drawable/custom_bg_rounded_square_white_fill"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_medium_large"
+                android:text="@string/setting_sign_out"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

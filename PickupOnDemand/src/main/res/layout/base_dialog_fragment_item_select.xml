@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    tools:context=".base.BaseItemSelectDialogFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:background="@color/colorPanelPrimary">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/medium"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorTextPrimary"/>
+        <RelativeLayout
+            android:id="@+id/rl_filter_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <EditText
+                android:id="@+id/et_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small"
+                android:paddingTop="@dimen/extra_small"
+                android:paddingBottom="@dimen/extra_small"
+                android:paddingLeft="@dimen/small"
+                android:paddingStart="@dimen/small"
+                android:paddingRight="@dimen/small"
+                android:paddingEnd="@dimen/small"
+                android:background="@drawable/custom_bg_rounded_square_white_fill"
+                android:drawableRight="@drawable/ic_search"
+                android:drawableEnd="@drawable/ic_search"
+                android:hint="@string/pod_search"/>
+            <ProgressBar
+                android:id="@+id/progress_bar_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                style="?android:attr/progressBarStyleSmall"
+                android:visibility="gone"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/basic_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+
+            <!-- CONTENT -->
+            <ListView
+                android:id="@+id/list_view_item_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

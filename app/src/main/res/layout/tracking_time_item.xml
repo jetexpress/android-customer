@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/spacing_normal"
+    android:paddingLeft="@dimen/spacing_normal">
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/gray_dark"
+        android:textStyle="normal"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/time_separator"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_height="1dp"
+        android:background="@color/gray_light" />
+
+</LinearLayout>

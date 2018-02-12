@@ -1,0 +1,3 @@
+[submodule "libs/ListViewVariants"]
+	path = libs/ListViewVariants
+	url = http://git.weekendinc.com/jet/androidlib_ListViewVariants.git

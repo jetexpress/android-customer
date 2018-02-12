@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPanelPrimary"
+    tools:context="coid.customer.pickupondemand.jet.fragment.PickupNotificationFragment">
+
+    <include layout="@layout/basic_layout"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"/>
+
+    <!-- CONTENT -->
+    <LinearLayout
+        android:id="@+id/ll_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ListView
+                android:id="@+id/list_view_notification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/colorTextPrimary"
+                android:dividerHeight="1dip"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <ProgressBar
+            android:id="@+id/progress_bar_paging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small"
+            android:layout_marginBottom="@dimen/small"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/ProgressBarColorPrimary"
+            style="?android:attr/progressBarStyleSmall"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</RelativeLayout>

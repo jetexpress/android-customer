@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_view_pickup_item"
+        android:icon="@drawable/ic_detail_blue"
+        android:title="@string/pod_pickup_item_view" />
+    <item
+        android:id="@+id/menu_edit_pickup_item"
+        android:icon="@drawable/ic_edit_blue"
+        android:title="@string/pod_pickup_item_edit" />
+    <item
+        android:id="@+id/menu_delete_pickup_item"
+        android:icon="@drawable/ic_trash_red"
+        android:title="@string/pod_pickup_item_delete" />
+</menu>

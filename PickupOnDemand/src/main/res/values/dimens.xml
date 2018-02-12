@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="extra_small">4dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="medium_large">24dp</dimen>
+    <dimen name="large">32dp</dimen>
+    <dimen name="larger">38dp</dimen>
+    <dimen name="extra_large">64dp</dimen>
+
+    <dimen name="reverse_extra_small">-4dp</dimen>
+    <dimen name="reverse_small">-8dp</dimen>
+    <dimen name="reverse_medium">-16dp</dimen>
+    <dimen name="reverse_medium_large">-24dp</dimen>
+    <dimen name="reverse_large">-32dp</dimen>
+    <dimen name="reverse_larger">-48dp</dimen>
+    <dimen name="reverse_extra_large">-64dp</dimen>
+
+    <dimen name="layout_small">96dp</dimen>
+    <dimen name="layout_medium">128dp</dimen>
+    <dimen name="layout_large">256dp</dimen>
+
+    <dimen name="text_size_extra_small">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_medium_large">18sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_larger">32sp</dimen>
+    <dimen name="text_size_extra_large">96sp</dimen>
+    <dimen name="text_size_insane">128sp</dimen>
+
+    <!-- Custom -->
+    <dimen name="half_circle_image_bottom_margin">-40dp</dimen>
+</resources>
