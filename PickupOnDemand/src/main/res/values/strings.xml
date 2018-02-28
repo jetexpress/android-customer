@@ -189,6 +189,8 @@
     <string name="pod_login_failed">Gagal login, Silakan coba lagi</string>
     <string name="pod_login_invalid">Username atau Password tidak valid</string>
     <string name="pod_register_failed">Gagal register, Silakan coba lagi</string>
+    <string name="pod_validate_otp_failed">Validasi OTP Gagal!!</string>
+    <string name="pod_create_otp_failed">Request new OTP failed</string>
     <string name="pod_change_profile_failed">Gagal mengubah profile, Silakan coba lagi</string>
     <string name="pod_create_requested_pickup_failed">Gagal membuat Pickup, Silakan coba lagi</string>
     <string name="pod_delete_pickup_failed">Gagal menghapus Pickup, Silakan coba lagi</string>

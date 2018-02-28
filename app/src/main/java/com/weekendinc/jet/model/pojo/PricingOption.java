@@ -24,6 +24,8 @@ public class PricingOption {
     private Boolean redoc;
     @JsonProperty("dueDay")
     private String dueDay;
+    @JsonProperty("dueDayMin")
+    private String dueDayMin;
     @JsonProperty("volumeDivider")
     private Integer volumeDivider;
     @JsonProperty("calculationResult")
@@ -163,6 +165,14 @@ public class PricingOption {
     @JsonProperty("dueDay")
     public String getDueDay() {
         return dueDay;
+    }
+
+    public String getDueDayMin() {
+        return dueDayMin;
+    }
+
+    public void setDueDayMin(String dueDayMin) {
+        this.dueDayMin = dueDayMin;
     }
 
     /**

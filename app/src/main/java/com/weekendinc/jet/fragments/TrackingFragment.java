@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import com.weekendinc.jet.R;
 import com.weekendinc.jet.TrackingResultActivity;
 import com.weekendinc.jet.adapter.TrackingAdapter;
 
+import java.security.Key;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -73,11 +75,16 @@ public class TrackingFragment extends BaseFragment implements View.OnClickListen
         super.onArrowBackPressed();
     }
 
+
+
     @Override
     public void onBackPressed()
     {
         super.onBackPressed();
     }
+
+
+
 
     @Override
     public void onClick(View v) {
@@ -107,4 +114,11 @@ public class TrackingFragment extends BaseFragment implements View.OnClickListen
         awbNumberStringArray = mAdapter.getList().toArray(awbNumberStringArray);
         return awbNumberStringArray;
     }
+
+//    @Override
+//    public boolean onKey(View v, int keyCode, KeyEvent event) {
+//        if((event.getAction() == KeyEvent.ACTION_DOWN) || (keyCode == KeyEvent.KEYCODE_ENTER)){
+//            onResume();
+//        }
+//    }
 }

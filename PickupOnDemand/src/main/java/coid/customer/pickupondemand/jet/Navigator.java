@@ -69,6 +69,7 @@ public class Navigator
         if (fragment == null) showFragment(mActivity.getDefaultFragment());
     }
 
+
     public void popResumeToDefaultFragment()
     {
         try

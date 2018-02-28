@@ -13,14 +13,14 @@ android {
         multiDexEnabled true
 
         /** DEV/UAT/STAGING */
-//        manifestPlaceholders = [onesignal_app_id : "2f1c9167-3372-440b-954c-51bd52968fe3",
-//                                // Project number pulled from dashboard, local value is ignored.
-//                                onesignal_google_project_number: "825995445020"]
+        manifestPlaceholders = [onesignal_app_id : "2f1c9167-3372-440b-954c-51bd52968fe3",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "825995445020"]
 
         /** PRD */
-        manifestPlaceholders = [onesignal_app_id : "04690dfc-f028-439e-bc60-1a7bf2762e44",
-                                // Project number pulled from dashboard, local value is ignored.
-                                onesignal_google_project_number: "56551896998"]
+//        manifestPlaceholders = [onesignal_app_id : "04690dfc-f028-439e-bc60-1a7bf2762e44",
+//                                // Project number pulled from dashboard, local value is ignored.
+//                                onesignal_google_project_number: "56551896998"]
     }
     buildTypes {
         release {

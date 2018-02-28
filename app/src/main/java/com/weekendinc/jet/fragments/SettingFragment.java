@@ -123,6 +123,7 @@ public class SettingFragment extends BaseFragment {
             @Override
             public void onClick(View v)
             {
+                getBaseActivity().getNavigator().popResumeToDefaultFragment();
                 mSessionManager.logoutUser();
             }
         });

@@ -44,7 +44,10 @@ public class LoginRequest extends BaseNetworkRequest<Login>
         UserProfileRequest userProfileRequest =  new UserProfileRequest(getContext())
         {
             @Override
-            protected void onStartOnUIThread(){}
+            protected void onStartOnUIThread(){
+
+                getBaseActivity().getNavigator().popResumeToDefaultFragment();
+            }
         };
         userProfileRequest.executeAsync();
     }
