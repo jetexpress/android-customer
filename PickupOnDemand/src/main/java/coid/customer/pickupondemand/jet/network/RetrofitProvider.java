@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import coid.customer.pickupondemand.jet.config.ApiConfig;
 import coid.customer.pickupondemand.jet.model.Login;
+import coid.customer.pickupondemand.jet.utility.NullOnEmptyConverterFactory;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import retrofit2.Retrofit;
@@ -31,6 +32,7 @@ public class RetrofitProvider
 
         return new Retrofit.Builder()
                 .baseUrl(ApiConfig.AUTH_URL)
+                .addConverterFactory(new NullOnEmptyConverterFactory())
                 .addConverterFactory(GsonConverterFactory.create(
                         new GsonBuilder()
                                 .excludeFieldsWithModifiers(Modifier.FINAL, Modifier.TRANSIENT, Modifier.STATIC)
@@ -109,6 +111,7 @@ public class RetrofitProvider
                 .create(IResourceService.class);
     }
 
+
     public static IResourceService getAuthorizedResourcesService()
     {
         Interceptor interceptor = new Interceptor() {
@@ -137,6 +140,7 @@ public class RetrofitProvider
                         .readTimeout(ApiConfig.READ_TIMEOUT, TimeUnit.SECONDS)
                         .build()
                 )
+
                 .build()
                 .create(IResourceService.class);
     }

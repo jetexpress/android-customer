@@ -7,6 +7,7 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -160,9 +161,11 @@ public class TrackingAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         ImageView img_clear;
         TextWatcher trackingWatcher;
 
+
         ItemViewHolder(View itemView) {
             super(itemView);
             et_tracking = (EditText) itemView.findViewById(R.id.et_tracking);
+            et_tracking.setImeOptions(EditorInfo.IME_ACTION_DONE);
             img_clear = (ImageView) itemView.findViewById(R.id.img_clear);
         }
 

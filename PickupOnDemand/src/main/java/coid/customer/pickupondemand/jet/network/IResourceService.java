@@ -103,4 +103,6 @@ public interface IResourceService
 
     @GET("v2/pickup-requests-extra/customer-version/android/{version}")
     Call<UpdateInfo> getUpdateInfo(@Path("version") int version);
+
+
 }

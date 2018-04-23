@@ -50,7 +50,12 @@ public class LoginFragment extends coid.customer.pickupondemand.jet.base.BaseFra
     {
         // Required empty public constructor
     }
-
+//    public static LoginFragment newInstance() {
+//
+//
+//        LoginFragment loginFragment = new LoginFragment();
+//        return loginFragment;
+//    }
     @Override
     public void onCreate(Bundle savedInstanceState)
     {

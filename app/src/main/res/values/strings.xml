@@ -43,7 +43,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- NEW LOGIN -->
-    <string name="login_email">Email / JET ID</string>
+    <string name="login_email">Email / JET ID / Phone Number</string>
     <string name="login_password">Password</string>
     <string name="login_forgot_your_login_details"><u>Lupa Password ?</u></string>
     <string name="login_do_not_have_an_account">Belum buat akun?</string>
@@ -55,7 +55,9 @@
     <!-- NEW REGISTER -->
     <string name="register">Daftar</string>
     <string name="register_name">Nama</string>
+    <string name="register_username">Username</string>
     <string name="register_email">Email</string>
+    <string name="register_phone">Phone</string>
     <string name="register_password">Password</string>
     <string name="register_repeat_password">Ulangi Password</string>
     <string name="register_already_have_an_account">Sudah punya akun?</string>
@@ -64,7 +66,10 @@
     <string name="register_invalid_email_format">Format email tidak valid</string>
     <string name="register_password_minimum_six_characters">Password minimal 6 karakter</string>
     <string name="register_email_already_taken">Email sudah terdaftar</string>
+    <string name="register_phonenumber_already_taken">Phone Number sudah terdaftar</string>
+    <string name="register_phonenumber_between">Phone Number harus antara 11 hingga 13 digit</string>
     <string name="register_name_already_taken">Nama sudah terdaftar</string>
+    <string name="register_failed">Terjadi kesalahan, silahkan hubungi 1 500 538 untuk info lebih lanjut</string>
 
     <!-- TRACKING -->
     <string name="tracking_now">Lacak Sekarang</string>
@@ -91,6 +96,7 @@
     <string name="price_check_kg">Kg</string>
     <string name="price_check_result_not_found">Harga tidak ditemukan, silakan coba lagi untuk asal dan tujuan yang lain</string>
     <string name="price_check_choose_location">Pilih lokasi</string>
+    <string name="price_check_info_cargo">)*min 10 Kg</string>
 
     <!-- WAYBILL -->
     <string name="waybill_failed_to_update_pin">Gagal mengganti status pin, silakan coba lagi</string>
@@ -116,4 +122,13 @@
     <string name="setting_submit">Submit</string>
     <string name="setting_confirm_new_password_not_match">Konfirmasi password tidak sesuai</string>
     <string name="setting_incorrect_password">Password sekarang tidak sesuai</string>
+
+    <string name="otp_title">Kami telah mengirimkan SMS Kode</string>
+    <string name="otp_subtitle">Verifikasi ke nomor</string>
+    <string name="otp_code">Kode Verifikasi</string>
+    <string name="otp_retry">Tidak menerima kode? tunggu dalam</string>
+    <string name="otp_second">detik</string>
+    <string name="otp_resend">Kirim ulang kode</string>
+    <string name="otp_ticker">00:59</string>
+    <string name="otp_skip">skip</string>
 </resources>

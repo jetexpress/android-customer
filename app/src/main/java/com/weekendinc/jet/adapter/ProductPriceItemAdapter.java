@@ -44,6 +44,13 @@ public class ProductPriceItemAdapter extends ArrayAdapter<PricingOption>
 
             holder.tv_product_name.setText(pricingOption.getProductName());
             holder.tv_product_price.setText(price);
+            if(pricingOption.getProductCode().equals("CRG"))
+            {
+
+                holder.tv_product_info.setText(R.string.price_check_info_cargo);
+            }else{
+                holder.tv_product_info.setText("");
+            }
         }
 
         return convertView;
@@ -67,11 +74,13 @@ public class ProductPriceItemAdapter extends ArrayAdapter<PricingOption>
     {
         TextView tv_product_name;
         TextView tv_product_price;
+        TextView tv_product_info;
 
         ViewHolder(View v)
         {
             tv_product_name = (TextView) v.findViewById(R.id.tv_product_name);
             tv_product_price = (TextView) v.findViewById(R.id.tv_product_price);
+            tv_product_info = (TextView) v.findViewById(R.id.tv_product_info);
         }
     }
 }
